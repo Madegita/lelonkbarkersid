@@ -118,6 +118,7 @@
                       audio.play();
                     }, { once: true });
                   </script>
+                  
                   <div class="bar-wrapper">
                     <div class="bar" style="--i:0;"></div>
                     <div class="bar" style="--i:1;"></div>
@@ -155,8 +156,9 @@
                   }
                 </style>
               </head>
+              <div style="margin: 20px 0;"></div>
               <body>
-              
+              <div style="margin: 20px 0;"></div>
               <div class="world-clock" id="worldClock">
                 <div class="city-time"><span>Madrid</span><span id="madridTime">00:00:00</span></div>
                 <div class="city-time"><span>Jakarta</span><span id="jakartaTime">00:00:00</span></div>
@@ -200,6 +202,7 @@
                 setInterval(updateClock, 1000);
                 updateClock();
               </script>
+              <div style="margin: 20px 0;"></div>
               <div class="weather-inline">
                 🌤️  Perkiraan Suhu: <strong>28°C</strong> di Madrid
               </div>
@@ -391,11 +394,11 @@
   <div class="wave-bg"></div>
 </header>
 <div class="hobby-wrapper">
-  <h2 class="hobby-title">Hobi Saya</h2>
+  <h2 class="hobby-title">my hobby</h2>
 
   <section class="hobby-straws">
     <div class="straw-hobby" data-percent="95">
-      <span class="hobby-label"> programming</span>
+      <span class="hobby-label"> webdeveloper</span>
       <div class="straw">
         <div class="straw-fill"></div>
         <span class="straw-percent">90%</span>
@@ -403,7 +406,7 @@
     </div>
 
     <div class="straw-hobby" data-percent="90">
-      <span class="hobby-label">sepak bola</span>
+      <span class="hobby-label">roadtripper</span>
       <div class="straw">
         <div class="straw-fill"></div>
         <span class="straw-percent">99%</span>
@@ -412,6 +415,20 @@
 
     <div class="straw-hobby" data-percent="80">
       <span class="hobby-label"> Photography</span>
+      <div class="straw">
+        <div class="straw-fill"></div>
+        <span class="straw-percent">60%</span>
+      </div>
+    </div>
+    <div class="straw-hobby" data-percent="80">
+      <span class="hobby-label"> backpackeran</span>
+      <div class="straw">
+        <div class="straw-fill"></div>
+        <span class="straw-percent">60%</span>
+      </div>
+    </div>
+    <div class="straw-hobby" data-percent="80">
+      <span class="hobby-label"> nature camp</span>
       <div class="straw">
         <div class="straw-fill"></div>
         <span class="straw-percent">60%</span>
@@ -695,8 +712,8 @@
             position: relative;
             overflow: hidden;
           ">
-            "Materialis memandang dunia melalui angka-angka. Miskin dan kaya adalah baju bagi mereka.
-            Spriritualis melihatnya sebagai perjalanan. Mendapatkan pelajaran dari semua yg ditemui dan dihadirkan." – badfellasid
+            "jadilah baik untuk siapapun yang kamu temui, setajam apapun pisau yang orang tancapkan padamu. tetap rawat lukamu tanpa harus membenci orang yang melukaimu." 
+            <p>badfellasid</p>
             <div id="glow" style="
               position: absolute;
               top: 0;
@@ -719,14 +736,14 @@
     .jadwal-float {
       position: fixed;
       bottom: 20px;
-      right: 20px;
-      width: 180px;
+      left: 5px;
+      width: 160px;
       height: 70px;
       background: #fff;
       font-size: 10px;
       border: 1px solid #ffd700;
       border-radius: 5px;
-      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      box-shadow: 0 0 50px rgba(0,0,0,0.1);
       overflow: hidden;
       z-index: 9999;
     }
